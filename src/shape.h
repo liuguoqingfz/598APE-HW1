@@ -22,6 +22,6 @@ class Shape{
    virtual void setRoll(double d) = 0;
 };
 
-void calcColor(unsigned char* toFill, Autonoma*, Ray ray, unsigned int depth);
+void calcColor(unsigned char* __restrict toFill, Autonoma*, Ray ray, unsigned int depth);
 
 #endif
